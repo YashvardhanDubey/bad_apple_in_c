@@ -14,3 +14,7 @@ You can refer to the python script in the repo for the same
 
 Third:
 I have use C as for the playback, you can see the source code file for how i did it.
+
+
+If you want to test out this program, you need to first create the frames using ffmpeg as i did in the same place where all the other assets are, and then use the python script to generate the ascii art and when you have both the folder in the same directory as the c_player file, for ex you might have a folder "frames" from which you generated the ascii art in "ascii.txt" so you would run in terminal:
+./c_player ascii_txt 30 6573
